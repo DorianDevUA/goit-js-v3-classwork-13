@@ -1,13 +1,13 @@
 /*
- * Делегирование
- * - один из многих
- * - несколько из многих и Set
+ * Делегування
+ * - один з багатьох
+ * - декілька з багатьох та Set
  */
 
 // const tagsContainer = document.querySelector('.js-tags');
-// let selectedTag = null;
-
 // tagsContainer.addEventListener('click', onTagsContainerClick);
+
+// let selectedTag = null;
 
 // function onTagsContainerClick(evt) {
 //   if (evt.target.nodeName !== 'BUTTON') {

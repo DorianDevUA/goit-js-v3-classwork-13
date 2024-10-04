@@ -1,11 +1,10 @@
 /*
- * Делегирование событий
- * - общий слушатель
- * - фильтр цели клика
+ * Делегування подій
+ * - спільний слухач
+ * - фільтр цілі кліка
  */
 
 const container = document.querySelector('.js-container');
-
 container.addEventListener('click', onClick);
 
 function onClick(evt) {
@@ -17,7 +16,7 @@ function onClick(evt) {
 }
 
 /*
- * Код добавления кнопок
+ * Код додавання кнопок
  */
 const addBtn = document.querySelector('.js-add-btn');
 let labelCounter = 6;
