@@ -1,0 +1,21 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-black {
+    background-color: black;
+}
+
+.item-green {
+    background-color: green;
+}
+
+.item-red {
+    background-color: red;
+}
